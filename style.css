@@ -1,0 +1,78 @@
+/*Top color A2DEE4*/
+/*bottom color, picture border, heading color and frame 518CA4*/
+
+*{
+	border-style: border-box;
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  margin: 0px;
+}
+h3{
+  background-color: white;
+  border: 5px solid #518CA4;
+  color: #548EA6;
+  margin: auto;
+  padding: 2px;
+  width: 160px;
+}
+main{
+  padding-bottom: 10px;
+}
+header{
+  background-image: url(images/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+footer{
+  background-color: #518CA4;
+  padding: 5px;
+  color: #FAFAFA;
+}
+footer a{
+  color: #fafafa;
+}
+ul{
+  display: inline-block;
+	float: right;
+  margin: 6px;
+}
+li{
+  display: inline-block;
+	list-style-type: none;
+	margin: 0px 10px;
+}
+.clearfix{
+  overflow:auto;
+  width:100%;
+}
+.column{
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+.dogpic{
+  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+  border: 2px solid #518CA4;
+}
+.top-bar{
+  background-color: #A2DEE4;
+  color: white;
+  height: 30px;
+  padding: 5px;
+}
+#icon{
+  float: left;
+  height: 30px;
+  width: 30px;
+
+}
+#topdog{
+  height: 300px; 
+  width: 300px;
+}
